@@ -24,15 +24,15 @@ android {
 
 }
 publish {
-       userOrg = 'edgejh'
-        groupId = 'com.edge.edge_centerseekbar'
-       artifactId = 'centerseekbar'
-       publishVersion = '1.0.1'
-        desc = 'Android CenterStart Custom Seekbar'
-        website = 'https://github.com/sunghwanJo/GearSlider'
-        issueTracker = "${website}/issues"
-        repository = "${website}.git"
-      }
+    userOrg = 'edgejh'
+    groupId = 'com.edge.edge_centerseekbar'
+    artifactId = 'centerseekbar'
+    publishVersion = '1.0.1'
+    desc = 'Android CenterStart Custom Seekbar'
+    website = 'https://github.com/EdgeJH/CenterSeekBarmaster'
+    issueTracker = "${website}/issues"
+    repository = "${website}.git"
+}
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
