@@ -33,10 +33,17 @@ Usage
     android:progress="50"
     app:seekbar_backgroundtint="@android:color/darker_gray"
     app:seekbar_progresstint="@android:color/black"
+    app:seekbar_height="6dp"
     app:seekbar_thumbtint="@android:color/holo_purple"/>
 ```
-```java
 
+```java
+ CenterSeekBar centerSeekBar = new CenterSeekBar.Builder().with(getApplicationContext())
+                .setThumbColor(R.color.colorAccent)
+                .setBackgroundColor(R.color.colorPrimary)
+                .setHeight(10f)
+                .setProgressColor(R.color.colorPrimaryDark)
+                .build();
 ```
 
 ##### Properties:
@@ -44,6 +51,7 @@ Usage
 * `app:seekbar_backgroundtint`
 * `app:seekbar_progresstint`
 * `app:seekbar_thumbtint`
+* `app:seekbar_height`
 
 License
 --------
