@@ -16,7 +16,7 @@ allprojects {
 ```
 ```groovy
 dependencies {
-    compile 'com.github.EdgeJH:CenterSeekBarmaster:0.0.1'
+    compile 'com.github.EdgeJH:CenterSeekBarmaster:1.0.1'
 }
 ```
 
