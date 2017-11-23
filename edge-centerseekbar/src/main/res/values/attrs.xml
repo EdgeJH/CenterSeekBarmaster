@@ -3,6 +3,8 @@
     <declare-styleable name="CenterSeekBar">
         <attr name="seekbar_backgroundtint" format="color"/>
         <attr name="seekbar_progresstint" format="color"/>
+        <attr name="seekbar_thumbtint" format="color"/>
+        <attr name="seekbar_height" format="dimension"/>
     </declare-styleable>
 
 </resources>

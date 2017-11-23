@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/parent"
     android:layout_height="match_parent">
 
-
+    <com.edge.edge_centerseekbar.CenterSeekBar
+        xmlns:csb="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:progress="50"
+        csb:seekbar_backgroundtint="@android:color/darker_gray"
+        csb:seekbar_progresstint="@android:color/black"
+        csb:seekbar_height="2dp"
+        csb:seekbar_thumbtint="@android:color/holo_purple"/>
 </LinearLayout>
