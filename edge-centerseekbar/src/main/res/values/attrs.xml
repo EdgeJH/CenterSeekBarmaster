@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CenterSeekBar">
+        <attr name="seekbar_backgroundtint" format="color"/>
+        <attr name="seekbar_progresstint" format="color"/>
+    </declare-styleable>
+
+</resources>
